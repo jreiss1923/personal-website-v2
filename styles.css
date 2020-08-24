@@ -1,0 +1,23 @@
+span.i {
+    font-style: italic;
+}
+
+.para {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
+}
+
+p.footer {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.75em;
+}
+
+.header {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1em;
+}
+
+.title {
+    font-family: 'Arvo', serif;
+    font-size: 5em;
+}
