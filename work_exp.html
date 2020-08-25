@@ -9,13 +9,19 @@
         <link href="styles/styles.css" rel="stylesheet">
     </head>
     <body>
-        <a class="header" href="index.html">About</a>
-        <a class="header" href="projects.html">Projects</a>
-        <p class="header">Work Exp</p>
-        <a class="header" href="contact.html">Contact</a>
-        <img src="images/bloomberg.png">
-        <p class="para">I worked on two projects during my time at Bloomberg. Throughout my senior experience at BCA, I created a Python and Java program that converted Ruby architecture to JSON and text. I went in every Wednesday in my senior year to work on this project. It took a bit of time to get acclimated, but I was able to complete my project. The way this project works is by first making a call to GitHub to get the architecture in Python. Then, I used a connector to execute my Java code, converting the architecture to JSON.</p>
-        <p class="para">My second project was part of my summer internship, where I created a data migration project for asset management within the Bloomberg Terminal. I used Java for this project, and I came in 5 times a week during the summer as opposed to the school year. For a bit more detail, I imported the old settings and asset ids from the old service, then converted them using Java to match the new asset management terminal.</p>
+        <div class="bar">
+            <button class="header" type="button" onclick="window.location.href='index.html';">About</button>
+            <button class="header" type="button" onclick="window.location.href='projects.html';">Projects</button>
+            <button class="header-on header" type="button">Work Exp</button>
+            <button class="header" type="button" onclick="window.location.href='contact.html';">Contact</button>
+        </div>
+        <div class="bloomberg-image">
+            <img src="images/bloomberg.png">
+        </div>
+        <div class="about-text">
+            <p class="para">I worked on two projects during my time at Bloomberg. Throughout my senior experience at BCA, I created a Python and Java program that converted Ruby architecture to JSON and text. I went in every Wednesday in my senior year to work on this project. It took a bit of time to get acclimated, but I was able to complete my project. The way this project works is by first making a call to GitHub to get the architecture in Python. Then, I used a connector to execute my Java code, converting the architecture to JSON.</p>
+            <p class="para">My second project was part of my summer internship, where I created a data migration project for asset management within the Bloomberg Terminal. I used Java for this project, and I came in 5 times a week during the summer as opposed to the school year. For a bit more detail, I imported the old settings and asset ids from the old service, then converted them using Java to match the new asset management terminal.</p>
+        </div>
         <p class="footer">
             <span class="i">
                 Created by Joshua Reiss - 

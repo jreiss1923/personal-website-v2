@@ -7,17 +7,143 @@ span.i {
     font-size: 1.5em;
 }
 
-p.footer {
+.footer {
     font-family: 'Quicksand', sans-serif;
     font-size: 0.75em;
+    text-align: center;
+    flex-shrink: 0;
 }
 
 .header {
     font-family: 'Quicksand', sans-serif;
-    font-size: 1em;
+    font-size: 100%;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
 }
 
 .title {
     font-family: 'Arvo', serif;
     font-size: 5em;
+}
+
+.bar {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #95ffef;
+    margin: 0;
+    justify-content: space-around;
+    height: 5%;
+    width: 100%;
+}
+
+body {
+    margin: 0 0 0 0;
+    background-color: #ecfffd;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+button {
+  height: 100%;
+  width: 100%;
+  background-color: inherit;
+  color: black;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+    background-color: #77eadc;
+}
+
+.header-on {
+    background-color: black;
+    color: #ecfffd;
+}
+
+.header-on:hover {
+    background-color: black;
+}
+
+.titlepicture {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 3em 0em 0em 0em;
+    flex: 1;
+}
+
+.titlepicture img {
+    height: 20%;
+    width: 20%;
+    padding: 3em 3em 0em 3em;
+    flex-shrink: 0.25;
+}
+
+.titlepicture h1 {
+    flex-shrink: 5;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    flex: 1;
+}
+
+.about-text p {
+    padding: 0em 3em 0em 3em;
+    text-align: center;
+}
+
+.bar-top {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 3em 0em 0em 0em;
+    
+}
+
+.bar-top img {
+    height: 75%;
+    width: 75%;
+}
+
+.bar-bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.bar-bottom img {
+    height: 75%;
+    width: 75%;
+}
+
+.bar-top img:hover {
+    background-color: #c7f3eb;
+}
+
+.bar-bottom img:hover {
+    background-color: #c7f3eb;
+}
+
+.bloomberg-image {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+}
+
+.bloomberg-image img {
+    height: 75%;
+    width: 75%;
 }
